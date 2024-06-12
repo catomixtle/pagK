@@ -1,0 +1,286 @@
+.color {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      float: left;
+    }
+    
+    #contenedor1{
+      background-color: purple;
+      width: 1000px;
+      height: 200px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+     #contenedor2{
+       background-color: plum;
+      width: 1000px;
+      height: 100px;
+       padding-top: 10px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+     }
+     
+   .color {
+      background-color: pink;
+      width: 100px;
+      height: 50px;
+      margin: 5px;
+      align-self: flex-star;
+      order: 1;
+    }
+    
+    .color2 {
+      background-color: pink;
+      width: 800px;
+      height: 50px;
+      margin: 5px;
+      
+      align-items: center;
+      justify-content: center;
+      order: 2;
+    }
+    
+    .color3 {
+      background-color: pink;
+      width: 100px;
+      height: 50px;
+      margin: 5px;
+      
+      align-items: flex-end;
+      justify-content: end;
+      order: 3;
+    }
+    #contenedor3{
+       background-color: palevioletred;
+      width: 80%;
+      height: 100px;
+      display: flex;
+      margin-left: 50px;
+      justify-content: center;
+      align-items: center;
+     }
+    .a{
+       background-color: plum;
+       width: 300px;
+       height: 50px;
+       margin: 5px;
+       align-self: center;
+      justify-content: center;
+       order: 3;
+     }
+.button-container button {
+            margin-right: 10px;
+             background-color: plum;
+  
+        }
+   
+#contenedor7 {
+  background-color: purple;
+  width: 150%;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#contenedor5 {
+  background-color: plum;
+  width: auto; /* Cambiado a auto para ajustarse al contenido */
+  display: flex;
+  flex-wrap: wrap; /* Permitir el ajuste de los divs rojos */
+  justify-content: center;
+  align-items: center;
+}
+
+.color5,
+.color6,
+.color7,
+.color8 {
+  background-color: pink;
+  width: 100px;
+  height: 200px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contenedor6 {
+  background-color: purple;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centrar el div morado horizontalmente */
+  align-items: flex-start; /* Alinear el div morado en la parte superior */
+}
+
+#div_morado {
+  background-color: plum;
+  width: 220px; /* Ancho suficiente para contener los divs verdes */
+  display: flex;
+  flex-direction: column; /* Organizar los divs verdes verticalmente */
+  justify-content: flex-start; /* Alinear los divs verdes en la parte superior */
+  align-items: center; /* Centrar los divs verdes horizontalmente */
+}
+
+.color11,
+.color12 {
+  background-color: pink;
+  width: 100px;
+  height: 200px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container9{
+              border: 3px solid green;
+              border-radius: 10px;
+              width:960px;
+              height:200px;
+              background-color:#7e5aa3 ;
+              display: flex;
+              justify-content: rigth;
+              align-items: center;
+          }
+
+.rosa{
+    background-color:pink;
+  }
+  .rosa{
+    background-color:pink;
+  }
+  .rosa{
+    background-color:pink;
+  }
+  h2{
+    color:DodgerAzul;
+  }
+  h3{
+    color:#d11766;
+  }
+  h3{
+    color:hsl(311, 64%, 22%);
+  }
+  h3{
+    color:#d11766;
+  }
+  .izq{
+    mrgin-left:100px;
+    background: AD88C6;
+  }
+  p{
+    mrgin-left:100px;
+    background: AD88C6;
+  }
+  #todos{
+    margin: 50px;
+    background: FF7ED4;
+  }
+  #todos2{
+    margin:39px 100px 50px;
+    background: AD88C6;
+    
+  }
+  #todos3{
+    margin:39px 100px 50px;
+    background: AD88C6;
+    
+  }
+  #todos4{
+    margin:39px 100px 10px;
+    background: AD88C6;
+    
+  }
+  #{
+    background-color:#ffd3d3;
+    width: 25%;
+    display: boock;
+  }
+  p{
+    background-color:#ffd3d3;
+    color: brown;
+    display: inline-block;
+  }
+  #id1{
+    background-color: #FF8E8F;
+    padding: 20px;
+    width: 15%;
+    margin:10px;
+  }
+  .sec1{
+    display: inline-block;
+  }
+  .flex{
+    display.flex;
+  }
+  .container div{
+    margin:0 auto;
+    width:90%;
+    border: 3px solid black;
+    border-radius:10px ;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e9b9f3;
+    text-decoration: none;
+  }
+  .text-container{
+    text-align: center;
+  }
+  .navbar {
+    background-color: indianred;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: inline-block;
+    color: plum;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: blue;
+    color: palevioletred;
+  }
+  nav{
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-center;
+  }
+  .id1{
+    color: pink;
+    background-color: indianred ;
+    padding: 40px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .id1:hover{
+    background-color: palevioletred;
+  }
+  @media (max-width: 800px){
+    nav{
+      display.flex;
+      background-color: palevioletred;
+      flex-direction: column;
+    }
+    .id1{
+      margin: 10px0;
+    }
+  }
+  .flex{
+    display.flex;
+  }
+  .container{
+    margin:0 auto;
+    width:90%;
+  }
+  .text-container{
+    text-align: center;
+  }

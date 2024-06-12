@@ -1,0 +1,174 @@
+/* Estilos para la página de contacto */
+#contenedor1{
+      background-color: purple;
+      width: 1000px;
+      height: 200px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+     #contenedor2{
+       background-color: plum;
+      width: 1000px;
+      height: 100px;
+       padding-top: 10px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+     }
+     
+   .color {
+      background-color: pink;
+      width: 100px;
+      height: 50px;
+      margin: 5px;
+      align-self: flex-star;
+      order: 1;
+    }
+    
+    .color2 {
+      background-color: pink;
+      width: 800px;
+      height: 50px;
+      margin: 5px;
+      
+      align-items: center;
+      justify-content: center;
+      order: 2;
+    }
+    
+    .color3 {
+      background-color: pink;
+      width: 100px;
+      height: 50px;
+      margin: 5px;
+      
+      align-items: flex-end;
+      justify-content: end;
+      order: 3;
+    }
+    #contenedor3{
+       background-color: palevioletred;
+      width: 80%;
+      height: 100px;
+      display: flex;
+      margin-left: 50px;
+      justify-content: center;
+      align-items: center;
+     }
+ .a{
+       background-color: plum;
+       width: 300px;
+       height: 50px;
+       margin: 5px;
+       align-self: center;
+      justify-content: center;
+       order: 3;
+     }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fondo gris claro */
+  }
+  
+
+  
+  main {
+    padding: 20px;
+    margin-bottom: 60px; /* Ajuste del margen inferior */
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    color: #333; /* Texto gris oscuro */
+  }
+  
+  p {
+    color: #666; /* Texto gris */
+  }
+  
+  form {
+    background-color: plum; /* Morado claro */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #b19cd9; /* Morado claro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #7e5aa3; /* Morado oscuro */
+  }
+  
+  .container1{
+              border: 3px solid green;
+              border-radius: 10px;
+              width::960px;
+              height:200px;
+              background-color: #7e5aa3;
+              display: flex;
+              justify-content: rigth;
+              align-items: center;
+          }
+  
+  a {
+    color: #fff; /* Enlaces blancos */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+  }
+nav {
+            background-color: darkviolet; /* Fondo del menú */
+            padding: 40px 0; /* Espacio interno */
+            text-align: center;
+            height: auto;
+        }
+  nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        /* Estilos para los enlaces de la lista de navegación */
+        nav ul li a {
+            color: #fff; /* Color del texto del menú */
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        /* Estilos para los enlaces de la lista de navegación al pasar el cursor */
+        nav ul li a:hover {
+            background-color: #555; /* Cambio de color al pasar el cursor */
+        }
